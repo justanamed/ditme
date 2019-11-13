@@ -1,0 +1,43 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<form method="post">
+    <input type="text" id="id" value="" />
+    <input type="text" id="pass" value="" />
+    <a href="#"onclick="dmmfaker()">click vao day</a>
+</form>
+<object></object>
+<p>@ViewBag.alo</p>
+<iframe class="container" height="1000" id="cacc" src=""></iframe>
+<script>
+    function dmmfaker() {
+         $.ajax({
+        url: '@Url.Content("~/")' + "Home/Getitem",
+        type: 'POST',
+             data: { tk: "test", mk:  "123456a@A"},
+        dataType: 'json',
+             success: function (data1) {
+                 var x = JSON.parse(JSON.stringify(data1["value"]));
+                 document.getElementById("cacc").src = "data:application/pdf;base64," +JSON.parse(x)["fileToBytes"];
+                  //var objbuilder = '';
+                  //  objbuilder += ('<object width="100%" height="100%" data="data:application/pdf;base64,');
+                  //  objbuilder += ( JSON.parse(x)["fileToBytes"]);
+                  //  objbuilder += ('" type="application/pdf" class="internal">');
+                  //  objbuilder += ('<embed src="data:application/pdf;base64,');
+                  //  objbuilder += ( JSON.parse(x)["fileToBytes"]);
+                  //  objbuilder += ('" type="application/pdf"  />');
+                  //  objbuilder += ('</object>');
+
+                  //  var win = window.open("#","_blank");
+                  //  var title = "my tab title";
+                  //  win.document.write('<html><title>'+ title +'</title><body style="margin-top: 0px; margin-left: 0px; margin-right: 0px; margin-bottom: 0px;">');
+                  //  win.document.write(objbuilder);
+                  //  win.document.write('</body></html>');
+                  //  layer = jQuery(win.document);
+                    
+             }
+      
+        });
+    } 
+</script>
