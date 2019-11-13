@@ -19,7 +19,8 @@
         dataType: 'json',
              success: function (data1) {
                  var x = JSON.parse(JSON.stringify(data1["value"]));
-                 document.getElementById("cacc").src = "data:application/pdf;base64," +JSON.parse(x)["fileToBytes"];
+                 alert(x);
+                 //document.getElementById("cacc").src = "data:application/pdf;base64," +JSON.parse(x)["fileToBytes"];
                   //var objbuilder = '';
                   //  objbuilder += ('<object width="100%" height="100%" data="data:application/pdf;base64,');
                   //  objbuilder += ( JSON.parse(x)["fileToBytes"]);

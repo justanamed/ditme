@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\asus\\source\\repos\\abcccdscdcdcsdcsdcsdcdscsdfsdf\\abcccdscdcdcsdcsdcsdcdscsdfsdf\\abcccdscdcdcsdcsdcsdcdscsdfsdf.csproj": {}
+    "C:\\Users\\hieuh\\Downloads\\ditme-master\\abcccdscdcdcsdcsdcsdcdscsdfsdf\\abcccdscdcdcsdcsdcsdcdscsdfsdf.csproj": {}
   },
   "projects": {
-    "C:\\Users\\asus\\source\\repos\\abcccdscdcdcsdcsdcsdcdscsdfsdf\\abcccdscdcdcsdcsdcsdcdscsdfsdf\\abcccdscdcdcsdcsdcsdcdscsdfsdf.csproj": {
+    "C:\\Users\\hieuh\\Downloads\\ditme-master\\abcccdscdcdcsdcsdcsdcdscsdfsdf\\abcccdscdcdcsdcsdcsdcdscsdfsdf.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\asus\\source\\repos\\abcccdscdcdcsdcsdcsdcdscsdfsdf\\abcccdscdcdcsdcsdcsdcdscsdfsdf\\abcccdscdcdcsdcsdcsdcdscsdfsdf.csproj",
+        "projectUniqueName": "C:\\Users\\hieuh\\Downloads\\ditme-master\\abcccdscdcdcsdcsdcsdcdscsdfsdf\\abcccdscdcdcsdcsdcsdcdscsdfsdf.csproj",
         "projectName": "abcccdscdcdcsdcsdcsdcdscsdfsdf",
-        "projectPath": "C:\\Users\\asus\\source\\repos\\abcccdscdcdcsdcsdcsdcdscsdfsdf\\abcccdscdcdcsdcsdcsdcdscsdfsdf\\abcccdscdcdcsdcsdcsdcdscsdfsdf.csproj",
-        "packagesPath": "C:\\Users\\asus\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\asus\\source\\repos\\abcccdscdcdcsdcsdcsdcdscsdfsdf\\abcccdscdcdcsdcsdcsdcdscsdfsdf\\obj\\",
+        "projectPath": "C:\\Users\\hieuh\\Downloads\\ditme-master\\abcccdscdcdcsdcsdcsdcdscsdfsdf\\abcccdscdcdcsdcsdcsdcdscsdfsdf.csproj",
+        "packagesPath": "C:\\Users\\hieuh\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\hieuh\\Downloads\\ditme-master\\abcccdscdcdcsdcsdcsdcdscsdfsdf\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\asus\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\hieuh\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -61,7 +61,8 @@
               "target": "Package",
               "version": "[2.2.0, )"
             }
-          }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.0.100\\RuntimeIdentifierGraph.json"
         }
       },
       "runtimes": {
